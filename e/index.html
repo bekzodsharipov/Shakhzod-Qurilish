@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakhzod Qurilish</title>
+    <style>
+    * {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: #010100;}.container {max-width: 390px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;background-image: url(/images/bg.avif);background-repeat: no-repeat;background-position: top;margin-bottom: 15px;}.containers {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {border: 1px solid var(--color-white-solid, #FFFFFF);border-radius: 50px;display: flex;align-items: center;gap: 5px;padding: 6px 12px;margin-top: 18px;margin-bottom: 16px;max-width: 144px;width: 100%;margin-left: auto;margin-right: auto;display: flex;}.header__dot {background-color: #DD0000;width: 7px;height: 7px;border-radius: 999px;}.header__text {font-family: Montserrat, sans-serif;font-weight: 500;font-size: 13px;line-height: 100%;color: white;}.title {font-family: "BAGOTA LOS", sans-serif;font-weight: 400;font-size: clamp(28px, 8.5vw, 34px);line-height: 110%;text-align: center;text-transform: uppercase;background: linear-gradient(136.83deg, #FFD3A2 8.22%, #FFE2C1 52.67%, #FFD3A2 89.54%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;margin-bottom: 5px;}.title span {color: #0367FD;}.gradient {background: linear-gradient(180deg, rgba(1, 1, 0, 0) 78.37%, #010100 100%);max-width: 490px;z-index: 24;width: 100%;height: 620px;position: absolute;top: -40px;}.subBox {background-color: #1A1C1E;border-radius: 15px;border: 1px solid #3F3F3F;max-width: 297px;width: 100%;text-align: center;margin-bottom: 13px;margin-left: auto;margin-right: auto;display: flex;align-items: center;padding: 5px 0;justify-content: center;}.subBox p {font-family: "HvDTrial Brandon Text", sans-serif;font-weight: 400;font-size: clamp(14px, 4vw, 16px);line-height: 120%;text-align: center;color: white;}.subBox span {font-weight: 700;}.webinar-banner__arrow {display: flex;align-items: center;justify-content: center;gap: 7px;position: relative;z-index: 30;}.webinar-banner__arrow h3 {font-family: Montserrat, sans-serif;font-weight: 600;font-size: 18px;line-height: 120%;text-align: center;text-transform: uppercase;color: #FFFFFF;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.expert-wrap {position: relative;}.expert__img {position: relative;z-index: 0;object-fit: contain;max-width: clamp(270px, 84vw, 297px);width: 100%;height: auto;margin-bottom: -1px;position: relative;z-index: 1;}.expert-desc {position: absolute;z-index: 1;top: 52%;right: -5px;color: white;width: 100%;max-width: 80px;font-size: 12px;font-style: italic;}.event__btn {cursor: pointer;max-width: 320px;width: 100%;text-decoration: none;display: flex;align-items: center;justify-content: center;border: none;position: relative;background: linear-gradient(82.33deg, #DFB880 0%, #F7DDB0 50%, #DFB880 100%);box-shadow: 0px 4px 0px 0px #6B522C;border-radius: 50px;padding: 25px 0;z-index: 25;height: 75px;font-family: "HvDTrial Brandon Text", sans-serif;color: black;font-weight: 700;font-size: clamp(18px, 5vw, 20px);line-height: 100%;text-align: center;}.timer {font-family: "HvDTrial Brandon Text", sans-serif;font-weight: 700;font-size: 28px;line-height: 100%;text-align: center;color: white;margin-top: -40px;margin-bottom: 10px;position: relative;z-index: 25;}.event__list__item__text span {font-weight: 700;}@media (max-width:340px) {.subBox {max-width: 250px;}}
+    </style>
+
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__dot"></div>
+                <p class="header__text">
+                    14-Fevral | 20:00
+                </p>
+            </div>
+
+            <h1 class="title">
+                19 yillik tajribaga ega quruvchi
+            </h1>
+
+            <div class="subBox">
+                <p>
+                    kompaniyasi Humson Avenue <br> loyihasidan 20% <span>boshlang’ich to’lov <br> bilan</span> xonadon xarid
+                    qiling
+                </p>
+            </div>
+            <div class="expert-wrap">
+                <img src="/images/speaker.avif" alt="Speaker rasmi" class="expert__img minifyImg" decoding="async"
+                    loading="lazy" width="297" height="296">
+                <p class="expert-desc">
+                    2026-yilni oxirida bitirib topshiriladi!
+                </p>
+            </div>
+
+            <div class="gradient"></div>
+            <p class="timer" id="timer">02:00</p>
+            <button class="event__btn registerBtn" style="margin-bottom: 30px;">
+                Onlayn taqdimotda qatnashish
+            </button>
+            <div class="webinar-banner__arrow">
+                <h3>BEPUL</h3>
+                <img src="/images/arrow.avif" loading="lazy" decoding="async" width="29" height="28" alt="arrow">
+            </div>
+        </div>
+
+
+        <div class="containers">
+            <h2 class="event__list__title">onlayn taqdimotda nimalar bo’ladi?</h2>
+            <ul class="event__list">
+                <li class="event__list__item">
+                    <h3 class="event__list__item__number">01</h3>
+                    <img src="./images/learn/1.png" alt="event language" width="176" height="88" decoding="async"
+                        loading="lazy">
+                    <p class="event__list__item__text" style="padding: 0 20px;">
+                        Birinchi 5 ta xonadon xarid qilgan insonlarga <span>parkovka sovg’a sifatida</span> beriladi
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <h3 class="event__list__item__number">02</h3>
+                    <img src="./images/learn/2.png" alt="event language" width="157" height="107" decoding="async"
+                        loading="lazy">
+                    <p class="event__list__item__text" style="padding: 0 10px;">
+                        Atigi 50 ta xonadon uchun <span>katta chegirma aksiyasi</span> e’lon qilinadi. Faqat vebinar
+                        kuni!
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <h3 class="event__list__item__number">03</h3>
+                    <img src="./images/learn/3.png" alt="event language" width="112" height="105" decoding="async"
+                        loading="lazy">
+                    <p class="event__list__item__text">
+                       
+                        <span>Havosi eng toza hududlardan</span> biridagi loyihamiz haqida to’liq ma’lumot olasiz
+                    </p>
+                </li>
+            </ul>
+
+
+            <button class="event__btn registerBtn" style="margin-bottom: 30px;">
+                Onlayn taqdimotda qatnashish
+            </button>
+            <div class="webinar-banner__arrow" style="margin-bottom: 17px;">
+                <h3>BEPUL</h3>
+                <img src="/images/arrow.avif" loading="lazy" decoding="async" width="29" height="28" alt="arrow">
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul qatnashish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+
+                <!-- TELEFON -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container">
+                        <!-- LEFT: country -->
+                        <button type="button" class="selected-country" id="selectedCountry">
+                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                        </button>
+
+                        <!-- dropdown -->
+                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                        <!-- RIGHT: phone input (number span inside) -->
+                        <div class="phone-field">
+                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script defer src="../js/phoneFormatter.js"></script>
+    <script defer src="../js/app.js"></script>
+</body>
+
+</html>

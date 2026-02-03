@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakhzod Qurilish</title>
+    <style>
+* {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background-color: white;}.container {max-width: 440px;width: 100%;margin: 0 auto;padding: 0 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {width: 100%;background-color: white;box-shadow: 0px 4px 6.6px 0px #00000026;border-radius: 4px 4px 20px 20px;padding: 16px 30px;display: flex;align-items: center;justify-content: space-between;gap: 12px;margin-bottom: 17px;min-width: 313px;max-width: 389px;}.header__box {display: flex;align-items: center;gap: 8px;}.header__text {font-family: Inter, sans-serif;color: #000;font-weight: 500;font-size: 18px;line-height: 100%;text-wrap: nowrap;}.header__time {font-family: Inter, sans-serif;font-weight: 500;font-size: 18px;line-height: 100%;text-align: center;}.title {font-family: "Bebas Neue", sans-serif;font-weight: 400;font-size: clamp(26px, 8vw, 32px);line-height: 110%;text-align: center;text-transform: uppercase;position: relative;z-index: 2;margin-bottom: 7px;}.title span {font-size: clamp(23px, 7vw, 28px);color: #0367FD;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.speaker-main {position: relative;width: 100%;padding: 0 12px;padding-top: 22px;margin-top: -20px;}.speaker-main_bg {position: absolute;z-index: 0;top: 0;left: -12px;width: 105%;height: 100%;}.expert__img {object-fit: contain;max-width: clamp(270px, 84vw, 297px);width: 100%;height: auto;margin: auto;display: block;margin-bottom: -4px;position: relative;z-index: 1;}.event__btn {cursor: pointer;width: 100%;text-decoration: none;display: flex;align-items: center;justify-content: center;border: none;background-color: transparent;position: relative;background-color: #0367FD;box-shadow: 0px 4px 0px 0px #0242A1;border-radius: 50px;padding: 20px 0;z-index: 20;font-family: Inter, sans-serif;color: white;font-weight: 700;font-size: clamp(18px, 5vw, 20px);line-height: 100%;text-align: center;text-transform: uppercase;}.timer__box {display: flex;align-items: center;gap: 10px;border: 1px solid #0367FD;margin-top: 10px;margin-bottom: 21px;border-radius: 33px;padding: 8px 21px;}.timer {font-family: "Bebas Neue", sans-serif;font-weight: 400;font-size: 28px;line-height: 100%;text-transform: uppercase;}
+    </style>
+    <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css" />
+    </noscript>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__box">
+                    <p class="header__text">
+                        14-Fevral
+                    </p>
+                </div>
+                <p class="header__time">20:00</p>
+            </div>
+
+            <h1 class="title">
+                <span>Humson tog’lari yonida joylashgan</span> <br> 2026-yilni oxirida topshiriladigan xonadonlarni 24
+                oygacha bo’lib to’lashga xarid qiling
+            </h1>
+            <div class="speaker-main">
+                <img src="./images/speaker.avif" alt="Speaker rasmi" class="expert__img minifyImg" decoding="async"
+                    loading="lazy" width="297" height="296">
+
+                <img src="./images/speaker-bg.avif" alt="Speaker bg" class="speaker-main_bg" decoding="async"
+                    loading="lazy" width="387" height="342">
+                    <button class="event__btn registerBtn" style="margin-bottom: 11px;">Taqdimotda qatnashish</button>
+                </div>
+
+            <div class="timer__box">
+                <img src="./images/time.avif" loading="lazy" decoding="async" width="24" height="30" alt="time">
+                <p class="timer" id="timer">02:00</p>
+            </div>
+
+            <h2 class="event__list__title">onlayn taqdimotda:</h2>
+            <ul class="event__list">
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/check.avif" alt="check" width="28" height="28" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        Birinchi 5 ta xonadon xarid qilgan <br> insonlarga <span>parkovka sovg’a <br> sifatida</span>
+                        beriladi
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/check.avif" alt="check" width="28" height="28" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        Atigi 50 ta xonadon uchun <span>katta <br> chegirma aksiyasi</span> e’lon qilinadi. <br> Faqat
+                        vebinar kuni!
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/check.avif" alt="check" width="28" height="28" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        <span>Havosi eng toza hududlardan</span> biridagi loyihamiz boshqalardan nimasi bilan <br>
+                        ajralib
+                        turishi haqida bilib olasiz
+                    </p>
+                </li>
+            </ul>
+
+            <button class="event__btn registerBtn" style="margin-bottom: 30px;">Taqdimotda qatnashish</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul qatnashish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+
+                <!-- TELEFON -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container">
+                        <!-- LEFT: country -->
+                        <button type="button" class="selected-country" id="selectedCountry">
+                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                        </button>
+
+                        <!-- dropdown -->
+                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                        <!-- RIGHT: phone input (number span inside) -->
+                        <div class="phone-field">
+                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script defer src="./js/phoneFormatter.js"></script>
+    <script defer src="./js/app.js"></script>
+</body>
+
+</html>
